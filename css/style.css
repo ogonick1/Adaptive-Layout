@@ -2348,12 +2348,16 @@ button.swiper-pagination-bullet {
     max-width: 600px;
   }
 
-  .hero__img-about {
-    max-width: 500px;
+  .hero__img .hero__img-about {
+    width: 500px;
   }
 
   .hero .hero__img {
     width: 75%;
+  }
+
+  .hero .hero__img-about {
+    width: 500px;
   }
 }
 
@@ -2403,12 +2407,16 @@ button.swiper-pagination-bullet {
             flex-grow: 0 0 33%;
   }
 
-  .hero__img-about {
-    max-width: 450px;
+  .hero__img .hero__img-about {
+    width: 450px;
   }
 
   .hero .hero__img {
     width: 65%;
+  }
+
+  .hero .hero__img-about {
+    width: 450px;
   }
 
   .info__wreaper img {
@@ -2759,12 +2767,16 @@ button.swiper-pagination-bullet {
   }
 
   .hero .hero__img {
-    width: 318px;
+    width: 300px;
   }
 
   .hero .hero__img-career {
     width: 500px;
     max-width: 100%;
+  }
+
+  .hero .hero__img-about {
+    width: 400px;
   }
 
   .hero .hero__img-products {
@@ -2947,6 +2959,22 @@ button.swiper-pagination-bullet {
 @media screen and (max-width: 479.98px) {
   .brand__items {
     margin-top: 25px;
+  }
+
+  .hero__img {
+    width: 190px;
+  }
+
+  .hero__img .hero__img-about {
+    width: 450px;
+  }
+
+  .hero .hero__img {
+    width: 190px;
+  }
+
+  .hero .hero__img-about {
+    width: 350px;
   }
 
   .hero .hero .btn__wreaper {
